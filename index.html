@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wheather-app</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="wheatherapp">
+            <h1>Bycky wheather app</h1>
+            <input type="text" placeholder="Enter your city" id="input">
+            <button class="search"><i class="fas fa-search"></i></button>
+
+            <!-- <div class="image">
+                <i class="fas fa-sun"
+                    style="margin: 10px auto; font-size: 120px; display: block; color: rgb(239, 125, 37); width: 100px;"></i>
+            </div> -->
+
+            <div class=" hidden" id="wheatherResult">
+                <h2 id="cityName"></h2>
+                <img id="wheatherIcon">
+                <p id="description"></p>
+                <p id="temperature"></p>
+                <p id="humidity"></p>
+                <p id="wind"></p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
