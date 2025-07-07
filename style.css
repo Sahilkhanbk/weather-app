@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+
+}
+
+
+
+.wheatherapp {
+    /* border: 2px solid black; */
+    width: 22rem;
+    height: 34rem;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+/* .image i {
+    width: 100px;
+    display: block;
+    color: #555,
+} */
+
+.search {
+    padding: 14px;
+    border-radius: 50%;
+    height: 50px;
+    width: 3rem;
+    margin-left: 10px
+}
+
+#input {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-top: 17px;
+    border: none;
+}
+
+.hidden {
+    display: none;
+}
